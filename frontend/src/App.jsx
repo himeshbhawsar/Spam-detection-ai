@@ -16,7 +16,7 @@ function App() {
 
   const handlePredict = async () => {
     const response = await axios.post(
-    "http://127.0.0.1:8000/predict",
+    "https://spam-detection-ai-ikw1.onrender.com/predict",
     {
         message: message
     }
