@@ -3,11 +3,11 @@ import reactLogo from './assets/react.svg'
 import viteLogo from './assets/vite.svg'
 import heroImg from './assets/hero.png'
 import './App.css'
-import Header from './componentes/Header'
-import MessageInput from './componentes/MessageInput'
-import PredictButton from './componentes/PredictButton'
+import Header from './components/Header'
+import MessageInput from './components/MessageInput'
+import PredictButton from './components/PredictButton'
 import axios from "axios";
-import ResultCard from "./componentes/ResultCard";
+import ResultCard from "./components/ResultCard";
 
 function App() {
   const [message, setMessage] = useState('')
